@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .calculator {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: lightpink;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.calculator h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+}
+.calculator .values {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+.values .grid1, .grid2, .grid3 {
+    padding: 10px;
+}
+.values label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.values input {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.calculator .btn {
+    text-align: center;
+    margin-top: 15px;
+}
+.calculator .btn button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn button:hover {
+    background-color: black;
+    color: white;
+}
+.calculator .answer-box {
+    text-align: center;
+    margin: 10px;
+}
+.answer-box input {
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.answer-box input::placeholder {
+    text-align: center;
+    font-weight: bold;
+    color: pink;
+}
+.answer-box input[type=text] {
+    text-align: center;
+}
